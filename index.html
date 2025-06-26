@@ -3,79 +3,106 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Custom GPTs</title>
-  <style>
-    body { font-family: sans-serif; padding: 2rem; }
-    ul { list-style: none; padding: 0; }
-    li { margin-bottom: 1rem; }
-    a { color: #0066cc; text-decoration: none; font-weight: bold; }
-    a:hover { text-decoration: underline; }
-    .description { margin-left: 0.5rem; color: #555; font-weight: normal; }
-  </style>
+  <title>The Mirror Stack</title>
+  <meta name="description" content="Tools, systems, and sovereignty for emotionally intelligent creators." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <!-- Navigation -->
-  <nav>
-    <a href="#gpt-library">GPT Library</a>
-    <!-- Add other navigation links here -->
-  </nav>
+<body class="bg-gray-50 text-gray-900 font-sans">
+  <header class="p-6 border-b border-gray-200">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold tracking-tight">The Mirror Stack</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#gpts" class="hover:underline">GPTs</a>
+        <a href="#zine" class="hover:underline">Zine</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <!-- Main Content -->
-  <main>
-    <!-- Other sections can go here -->
+  <main class="max-w-4xl mx-auto py-12 px-6 space-y-16">
+    <section id="hero">
+      <h2 class="text-4xl font-bold mb-4">Build without burning out.</h2>
+      <p class="text-lg text-gray-700">The Mirror Stack is a platform for emotionally intelligent creators who want to lead, write, and build with sovereignty — using tools that work with your nervous system, not against it.</p>
+    </section>
 
-    <section id="gpt-library" style="padding-top: 3rem;">
-      <h2>GPT Library</h2>
-      <ul>
-        <li>
-          <a href="https://chatgpt.com/g/g-685cf4aa07dc8191a9ddda4203443ef3-creative-mirror" target="_blank">
-            Creative Mirror
-          </a>
-          <span class="description">Reflective question prompts to reconnect you with what matters</span>
-        </li>
-        <li>
-          <a href="https://chatgpt.com/g/g-685cf51c0cc0819195d0f2756b8f3615-clarity-engine" target="_blank">
-            Clarity Engine
-          </a>
-          <span class="description">Sorts overwhelm into actionable next steps</span>
-        </li>
-        <li>
-          <a href="https://chatgpt.com/g/g-685cf55d142081919060b39e939a985e-proposal-softener" target="_blank">
-            Proposal Softener
-          </a>
-          <span class="description">Translates your ideas into emotionally intelligent language</span>
-        </li>
-        <li>
-          <a href="https://chatgpt.com/g/g-685cf599143c81919dc90abb0e2cb9f3-boundarybuilder" target="_blank">
-            Boundary Builder
-          </a>
-          <span class="description">Scripts hard conversations while preserving your voice</span>
-        </li>
-        <li>
-          <a href="https://chatgpt.com/g/g-685cf5d7ffe48191ae8051890cdd1f80-the-tender-editor" target="_blank">
-            The Tender Editor
-          </a>
-          <span class="description">Helps you revise writing while staying aligned with your tone</span>
-        </li>
-        <li>
-          <a href="https://chatgpt.com/g/g-685cf6010284819183e9d263fae7a8ed-body-compass" target="_blank">
-            Body Compass
-          </a>
-          <span class="description">Helps you sense-check ideas through a somatic lens</span>
-        </li>
-        <li>
-          <a href="#" target="_blank" id="signal-sorter-link">
-            Signal Sorter
-          </a>
-          <span class="description">Distinguishes intuition from reactivity in moments of confusion</span>
-        </li>
+    <section id="overview">
+      <h2 class="text-2xl font-bold mb-4">🌱 Overview</h2>
+      <p>The Mirror Stack is a self-led platform designed to support creators who lead with emotional intelligence, somatic trust, and creative clarity. This site offers:</p>
+      <ul class="list-disc pl-5 mt-4 space-y-1">
+        <li>A short manifesto and belief statement</li>
+        <li>A curated GPT collection to support reflective workflows</li>
+        <li>A zine: <em>Human First, AI Second</em></li>
       </ul>
+    </section>
 
+    <section id="belief">
+      <h2 class="text-2xl font-bold mb-4">💭 What I Believe</h2>
+      <p class="mb-4">I believe we’re building in a world that doesn’t yet know how to hold our full selves.</p>
+      <p class="mb-4">Most systems reward speed, compliance, and surface. But real creation — the kind that feels true in your body — doesn’t happen that way. It requires space. Trust. Capacity. And tools that don’t hijack your nervous system.</p>
+      <p class="mb-4">I believe in making things that work with your humanity, not against it. That AI can be used without erasing your intuition. That clarity isn’t just a cognitive state — it’s a felt one. And that ambition doesn’t have to come at the cost of your softness, your grief, or your boundaries.</p>
+      <p class="mb-4">I’ve spent years navigating high-pressure systems while trying to stay present in my own body. I’ve seen what happens when brilliance gets buried under burnout, perfectionism, or performance. I’ve also seen what becomes possible when the right tools, questions, and systems are in place — the kind that mirror you back to yourself instead of muting your signal.</p>
+      <p class="mb-4 font-semibold">This is for the ones who feel everything. Who build anyway. And who are ready to create something real — without selling themselves out.</p>
+    </section>
+
+    <section id="tech-stack">
+      <h2 class="text-2xl font-bold mb-4">💻 Tech Stack</h2>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>HTML5</strong> and <strong>Tailwind CSS</strong></li>
+        <li>Static deployment-ready index.html file</li>
+        <li>Designed to be extended with Substack embeds, email capture, or GPT API integrations</li>
+      </ul>
+    </section>
+
+    <section id="gpts">
+      <h2 class="text-2xl font-bold mb-4">🧠 GPT Tools</h2>
+      <p class="mb-4">This launch stack includes human-first GPTs:</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>MirrorGPT</strong>: Reflective question prompts to reconnect you with what matters</li>
+        <li><strong>Clarity Engine</strong>: Sorts overwhelm into actionable next steps</li>
+        <li><strong>Proposal Softener</strong>: Translates your ideas into emotionally intelligent language</li>
+        <li><strong>Boundary Builder</strong>: Scripts hard conversations while preserving your voice</li>
+        <li><strong>The Tender Editor</strong>: Helps you revise writing while staying aligned with your tone</li>
+        <li><strong>Body Compass</strong>: Helps you sense-check ideas through a somatic lens</li>
+        <li><strong>Signal Sorter</strong>: Distinguishes intuition from reactivity in moments of confusion</li>
+      </ul>
+      <p class="mt-4">These tools are designed to work <em>with</em> — not override — your nervous system, intuition, and agency.</p>
+
+      <h3 class="text-xl font-semibold mt-8 mb-4">📚 GPT Library</h3>
+      <ul class="space-y-2 text-gray-800">
+        <li><a href="https://chatgpt.com/g/g-685cf4aa07dc8191a9ddda4203443ef3-creative-mirror" target="_blank" class="underline">Creative Mirror</a> <span class="text-sm italic">Reflective question prompts to reconnect you with what matters</span></li>
+        <li><a href="https://chatgpt.com/g/g-685cf51c0cc0819195d0f2756b8f3615-clarity-engine" target="_blank" class="underline">Clarity Engine</a> <span class="text-sm italic">Sorts overwhelm into actionable next steps</span></li>
+        <li><a href="https://chatgpt.com/g/g-685cf55d142081919060b39e939a985e-proposal-softener" target="_blank" class="underline">Proposal Softener</a> <span class="text-sm italic">Translates your ideas into emotionally intelligent language</span></li>
+        <li><a href="https://chatgpt.com/g/g-685cf599143c81919dc90abb0e2cb9f3-boundarybuilder" target="_blank" class="underline">Boundary Builder</a> <span class="text-sm italic">Scripts hard conversations while preserving your voice</span></li>
+        <li><a href="https://chatgpt.com/g/g-685cf5d7ffe48191ae8051890cdd1f80-the-tender-editor" target="_blank" class="underline">The Tender Editor</a> <span class="text-sm italic">Helps you revise writing while staying aligned with your tone</span></li>
+        <li><a href="https://chatgpt.com/g/g-685cf6010284819183e9d263fae7a8ed-body-compass" target="_blank" class="underline">Body Compass</a> <span class="text-sm italic">Helps you sense-check ideas through a somatic lens</span></li>
+        <li><a href="#" id="signal-sorter-link" target="_blank" class="underline">Signal Sorter</a> <span class="text-sm italic">Distinguishes intuition from reactivity in moments of confusion</span></li>
+      </ul>
       <script>
-        // Update this once the Signal Sorter link is available
         document.getElementById('signal-sorter-link').href = "https://chatgpt.com/g/REPLACE-WITH-SIGNAL-SORTER-URL";
       </script>
     </section>
+
+    <section id="zine">
+      <h2 class="text-2xl font-bold mb-4">📰 Zine</h2>
+      <p><strong>Human First, AI Second</strong> is a digital and printable zine that introduces non-technical users to AI through a compassionate, clear lens. It emphasizes agency, reflection, and values-aligned tooling.</p>
+    </section>
+
+    <section id="contact">
+      <h2 class="text-2xl font-bold mb-4">📬 Contact</h2>
+      <p>To collaborate, license, or join early access:</p>
+      <p class="mt-2 font-mono">hello@themirrorstack.com</p>
+    </section>
+
+    <section id="vision">
+      <h2 class="text-2xl font-bold mb-4">🔮 Vision</h2>
+      <p>The Mirror Stack is just the beginning. It is designed to grow into an ecosystem of emotionally intelligent tech tools and somatic-first systems for creative sovereignty.</p>
+    </section>
   </main>
+
+  <footer class="text-center text-sm text-gray-500 py-8 border-t border-gray-200">
+    &copy; 2025 The Mirror Stack. Built with clarity.
+  </footer>
 </body>
 </html>
