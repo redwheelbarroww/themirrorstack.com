@@ -2,56 +2,49 @@
 
 **Tools, systems, and sovereignty for emotionally intelligent creators.**
 
-## 🌱 Overview
+## 🌱 What It Is
 
-The Mirror Stack is a self-led platform designed to support creators who lead with emotional intelligence, somatic trust, and creative clarity. This site offers:
+The Mirror Stack is a modular, self-led platform designed for creators who lead with emotional intelligence, somatic trust, and reflective clarity. It includes:
 
-* A short manifesto and belief statement
-* A curated GPT collection to support reflective workflows
-* A zine: *Human First, AI Second*
+- 🧠 A curated library of GPTs for emotionally intelligent workflows  
+- 📰 A digital zine (*Human First, AI Second*) for compassionate AI fluency  
+- 📚 A manifesto and values-aligned onboarding for non-technical users
 
-## 💻 Tech Stack
+Everything is built to support **agency**, not override it.
 
-* **HTML5** and **Tailwind CSS**
-* Static deployment-ready index.html file
-* Designed to be extended with Substack embeds, email capture, or GPT API integrations
+## 🛠 Tech Stack
 
-## 📂 File Structure
+- **HTML5** + **Tailwind CSS**
+- Static `index.html` deployable via Vercel or GitHub Pages
+- Future extensions: Substack embeds, email capture, Claude/GPT API integrations
 
-```
-/
-├── index.html             # Main website file
-├── README.md              # This file
-```
+## 🧩 Key GPT Tools
 
-## 🧠 GPT Tools
+These tools mirror, guide, and refine — without dominating the user's inner voice:
 
-This launch stack includes human-first GPTs:
+- **MirrorGPT** — Reflective question prompts  
+- **Clarity Engine** — Sorts overwhelm into grounded action  
+- **Proposal Softener** — Translates ideas into EQ-driven language  
+- **Boundary Builder** — Scripts difficult conversations  
+- **The Tender Editor** — Provides voice-aligned revision suggestions
 
-* MirrorGPT: Reflective question prompts
-* Clarity Engine: Sorts overwhelm into action
-* Proposal Softener: Translates ideas into EQ-driven language
-* Boundary Builder: Scripts hard convos
-* The Tender Editor: Voice-aligned revision help
+All are designed to work *with* the user’s nervous system and intuition.
 
-These tools are designed to work with — not override — the user's nervous system, intuition, and agency.
+## 📰 Zine: *Human First, AI Second*
 
-## 📰 Zine
-
-**Human First, AI Second** is a digital and printable zine that introduces non-technical users to AI through a compassionate, clear lens. It emphasizes agency, reflection, and values-aligned tooling.
+This digital zine introduces non-technical users to AI through a human-first lens. It emphasizes curiosity, reflection, consent, and values-aligned tech design.  
+[Coming soon as printable PDF + web experience.]
 
 ## 📬 Contact
 
-To collaborate, license, or join early access:
+Want to collaborate, license, or gain early access?
 
-```
-hello@themirrorstack.com
-```
+📧 **hello@themirrorstack.com**
 
-## 🔮 Vision
+## 🔮 Long-Term Vision
 
-The Mirror Stack is just the beginning. It is designed to grow into an ecosystem of emotionally intelligent tech tools and somatic-first systems for creative sovereignty.
+The Mirror Stack is a seed for a broader ecosystem: emotionally intelligent AI tools, somatic-first systems, and publishing infrastructure for creators reclaiming their voice and pace.
 
-## © License
+---
 
-All content and copy © 2025 The Mirror Stack. All rights reserved.
+© 2025 The Mirror Stack. All rights reserved.
